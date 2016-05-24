@@ -1,10 +1,10 @@
 #!/usr/bin/php-cli
 <?php
 
-$DBServer = '195.178.232.16'; 
-$DBUser   = 'af7874';
-$DBPass   = 'La-9-sinfonia';
-$DBName   = 'af7874';  
+$DBServer = ''; 
+$DBUser   = '';
+$DBPass   = '';
+$DBName   = '';  
 
 $conn = new mysqli($DBServer, $DBUser, $DBPass, $DBName);
 // check connection
