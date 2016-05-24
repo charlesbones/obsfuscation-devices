@@ -3,10 +3,10 @@
 $tempeture = $argv[1];
 $humidity = $argv[2];
 $light = $argv[3];
-$DBServer = '195.178.232.16'; 
-$DBUser   = 'af7874';
-$DBPass   = 'La-9-sinfonia';
-$DBName   = 'af7874';  
+$DBServer = ''; 
+$DBUser   = '';
+$DBPass   = '';
+$DBName   = '';  
 $conn = new mysqli($DBServer, $DBUser, $DBPass, $DBName);
 // check connection
 if ($conn->connect_error) {
