@@ -20,7 +20,7 @@ class dataLight{
 }
 
 // we connect to example.com and port 3307
-$link = new mysqli('195.178.232.16', 'af7874', 'La-9-sinfonia', 'af7874');
+$link = new mysqli('', '', '', '');
 if (!$link) {
     die('Could not connect: ' . mysql_error());
 }
